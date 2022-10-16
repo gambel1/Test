@@ -17,6 +17,7 @@ li {
     border: 20px solid gray;
 }
 .box-button {
+    margin-bottom: 5px;
     padding: 5px 20px;
     border-radius: 5px;
     border: black solid 5px;
@@ -38,11 +39,16 @@ li {
     letter-spacing: 5px;
     font-size: 30px;
  }   
-
+.box-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .box-list {
     display: flex;
     align-items: center;
     gap: 30px;
+    padding: 0;
     
 }
 .box-link {
