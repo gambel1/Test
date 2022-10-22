@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="box">
+    <div class="container">
 
         <div class="box-container box-t">
-            <button type="button" class="box-button">
+            <button type="button" class="box-button" data-modal-open>
                 <h1 class="box-title">
                     test text
                 </h1>
@@ -52,6 +53,17 @@
             </ul> 
             
         </div>
-        
+</div>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal-button" type="button" data-modal-close>
+            <svg class="modal-icon" width="11" height="11">
+                <use href="./images/icons.svg#icon-close-modal">
+                </use>
+            </svg>
+        </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
